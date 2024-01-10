@@ -1,18 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-
-
-
-.d-none{
-    display: none;
-}
-.v-none{
-    visibility: hidden;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 255);
 }
 
+nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.d-none {
+  display: none;
+}
+.v-none {
+  visibility: hidden;
+}
